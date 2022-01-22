@@ -1,0 +1,29 @@
+header {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 3px solid lightseagreen;
+}
+
+h1 {
+  color: darkolivegreen;
+  text-transform: uppercase;
+}
+
+h2 {
+  color: gainsboro;
+}
+
+.heading {
+  display: flex;
+  flex-direction: column;
+}
+
+.details-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 7px;
+}
